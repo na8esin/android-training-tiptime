@@ -7,6 +7,10 @@ android {
     compileSdk 30
     buildToolsVersion "30.0.3"
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.tiptime"
         minSdk 21
